@@ -87,7 +87,7 @@ function scene:create( event )
 
 	-- Load our map
 	--local filename = event.params.map or "scene/game/map/sandbox.json"
-	local filename = event.params.map or "assets/maps/level0.json"
+	local filename = event.params.map or "assets/maps/level9.json"
 	local mapData = json.decodeFile( system.pathForFile( filename, system.ResourceDirectory ) )
 	--map = tiled.new( mapData, "scene/game/map" )
 	map = tiled.new( mapData, "assets/maps" )
